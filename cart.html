@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Shopping Cart</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/93bcc14741.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main">
+      <!-- title -->
+      <div class="title">
+        <div class="logo">
+          <a href="index.html"><img src="./images/logo.png" alt="logo" /></a>
+        </div>
+        <div class="location">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="locationText">
+            <p>Hello</p>
+            <p class="bold">Select your address</p>
+          </div>
+        </div>
+        <div class="search">
+          <select id="dropDown" name="url">
+            <option selected="selected" value="search-alias=aps">
+              All Departments
+            </option>
+            <option value="search-alias=audible">Audible Audiobooks</option>
+            <option value="search-alias=alexa-skills">Alexa Skills</option>
+            <option value="search-alias=amazon-devices">Amazon Devices</option>
+            <option value="search-alias=warehouse-deals">
+              Amazon Warehouse Deals
+            </option>
+            <option value="search-alias=mobile-apps">Apps &amp; Games</option>
+            <option value="search-alias=automotive">Automotive</option>
+            <option value="search-alias=beauty">Beauty</option>
+            <option value="search-alias=stripbooks">Books</option>
+            <option value="search-alias=popular">Music</option>
+            <option value="search-alias=baby">Baby</option>
+            <option value="search-alias=apparel">
+              Clothing &amp; Accessories
+            </option>
+            <option value="search-alias=electronics">Electronics</option>
+            <option value="search-alias=gift-cards">Gift Cards</option>
+            <option value="search-alias=grocery">Grocery</option>
+            <option value="search-alias=handmade">Handmade</option>
+            <option value="search-alias=hpc">Health &amp; Personal Care</option>
+            <option value="search-alias=kitchen">Home &amp; Kitchen</option>
+            <option value="search-alias=industrial">
+              Industrial &amp; Scientific
+            </option>
+            <option value="search-alias=jewelry">Jewelry</option>
+            <option value="search-alias=digital-text">Kindle Store</option>
+            <option value="search-alias=luggage">Luggage &amp; Bags</option>
+            <option value="search-alias=luxury-beauty">Luxury Beauty</option>
+            <option value="search-alias=dvd">Movies &amp; TV</option>
+            <option value="search-alias=mi">
+              Musical Instruments, Stage &amp; Studio
+            </option>
+            <option value="search-alias=office-products">
+              Office Products
+            </option>
+            <option value="search-alias=lawngarden">
+              Patio, Lawn &amp; Garden
+            </option>
+            <option value="search-alias=pets">Pet Supplies</option>
+            <option value="search-alias=instant-video">Prime Video</option>
+            <option value="search-alias=shoes">Shoes &amp; Handbags</option>
+            <option value="search-alias=smart-home">Smart Home</option>
+            <option value="search-alias=software">Software</option>
+            <option value="search-alias=sporting">Sports &amp; Outdoors</option>
+            <option value="search-alias=tools">
+              Tools &amp; Home Improvement
+            </option>
+            <option value="search-alias=toys">Toys &amp; Games</option>
+            <option value="search-alias=videogames">Video Games</option>
+            <option value="search-alias=watches">Watches</option>
+          </select>
+          <input type="text" />
+          <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
+
+        <div class="language">
+          <i class="fab fa-canadian-maple-leaf"></i>
+          <i class="fas fa-angle-down"></i>
+        </div>
+        <div class="account">
+          <a href="signin.html">
+            <p>Hello, Sign in</p>
+            <p class="bold">Account</p></a
+          >
+        </div>
+        <div class="order">
+          <p>Returns</p>
+          <p class="bold">& Orders</p>
+        </div>
+        <div class="cart">
+          <a href="cart"><i class="fas fa-shopping-cart">&nbsp<span id="cartPage">0</span></i></a>
+        </div>
+      </div>
+      <!-- navbar -->
+      <div class="nav">
+        <ul>
+          <li>All</li>
+          <li>Gift Cards</li>
+          <li>Best Sellers</li>
+          <li>Prime</li>
+          <li>Gift Ideas</li>
+          <li>New Releases</li>
+          <li>Deals Store</li>
+          <li>Electronics</li>
+          <li>Customer Service</li>
+          <li>Books</li>
+          <li id="lastLi">Prime | &nbsp<b>Movies and TV Shows</b></li>
+        </ul>
+      </div>
+
+      <div class="cart">
+        <div class="left">
+          <div class="ad">
+            <img src="./images/amazonCard.jpg" alt="card" />
+            <div class="adText">
+              <p>
+                You could<b style="color: #0079af">get 5% back at Amazon</b>,
+                grocery stores, and restaurants for 6 months upon approval for
+                the <b>Amazon Rewards Mastercard.</b>
+              </p>
+              <p>
+                Welcome offer on first $3,000 in eligible purchases. See terms.
+              </p>
+            </div>
+            <div>
+              <button type="submit">Learn more</button>
+            </div>
+          </div>
+          <div class="headingCart">
+            <h3>Your Shopping Cart</h3>
+          </div>
+          <hr />
+        </div>
+
+        <div class="checkout">
+          <img src="./images/mark.png" alt="" />
+          <div class="shoppingBox">
+            <p>Subtotal(0 items): CDN$<b>0</b></p>
+            <input type="checkbox" name="" id="" />
+            <span>This order contains a gift</span>
+            <button type="submit">Proceed to Checkout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
